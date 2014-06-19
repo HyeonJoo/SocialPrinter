@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    
+
+<mapper namespace="com.mycom.SocialPrinter_Web_02.mapper.RegisterMapper">
+	<update id=""></update>
+	
+	<insert id="insertAccount" parameterType="ExampleVO" keyProperty="serial">
+        INSERT INTO
+        user(serial)
+        VALUES
+        (#{serial})
+    </insert>
+</mapper>
